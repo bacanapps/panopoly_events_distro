@@ -8,8 +8,6 @@ core = "7.x"
 ; ----------
 ; Administration
 dependencies[] = admin_views
-; CCK
-dependencies[] = filefield_nginx_progress
 ; Chaos tool suite
 dependencies[] = ctools
 dependencies[] = fape
@@ -34,7 +32,7 @@ dependencies[] = commerce_registration
 ; Context
 dependencies[] = context
 dependencies[] = context_ui
-dependencies[] = joyride
+;dependencies[] = joyride
 ; Core
 dependencies[] = block
 dependencies[] = contextual
@@ -67,15 +65,15 @@ dependencies[] = date_views
 ; Distribution Management
 dependencies[] = apps
 ; Features, FAQ
-dependencies[] = panopoly_faq_page
-dependencies[] = panopoly_faq_question
+; dependencies[] = panopoly_faq_page
+; dependencies[] = panopoly_faq_question
 ; Fields
 dependencies[] = addressfield
 dependencies[] = conditional_fields
 dependencies[] = entityreference
 dependencies[] = entityreference_prepopulate
 dependencies[] = field_group
-dependencies[] = inline_entity_form
+;dependencies[] = inline_entity_form
 dependencies[] = link
 ; Input filters
 dependencies[] = caption_filter
@@ -94,11 +92,10 @@ dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = libraries
 dependencies[] = linkit
-dependencies[] = menu_block
+;dependencies[] = menu_block
 dependencies[] = module_filter
 dependencies[] = navbar
 dependencies[] = pathauto
-dependencies[] = robotstxt
 dependencies[] = save_draft
 dependencies[] = simple_gmap
 dependencies[] = simplified_menu_admin
@@ -122,9 +119,7 @@ dependencies[] = panopoly_theme
 dependencies[] = panopoly_users
 dependencies[] = panopoly_widgets
 dependencies[] = panopoly_wysiwyg
-dependencies[] = tour_navbar
 ; Panopoly Apps
-dependencies[] = panopoly_demo
 dependencies[] = panopoly_event
 dependencies[] = panopoly_paid_event
 ; Registration
@@ -136,7 +131,6 @@ dependencies[] = rules_admin
 dependencies[] = search_api
 dependencies[] = search_api_db
 dependencies[] = search_api_facetapi
-dependencies[] = search_api_solr
 dependencies[] = search_api_views
 ; Search Toolkit
 dependencies[] = facetapi
